@@ -21,10 +21,7 @@ This iOS app helps users track their daily water intake and stay hydrated.
 - View your daily progress in the water wave view.
 - Edit or delete entries by swiping left on a table row.
 
-## Screenshots
 
-![Home Screen](screenshots/home_screen.png)
-![Add Intake Screen](screenshots/add_intake_screen.png)
 
 ## Dependencies
 
