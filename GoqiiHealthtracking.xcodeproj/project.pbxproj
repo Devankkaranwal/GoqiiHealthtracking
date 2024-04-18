@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13427F8E2BCFACF5004B7562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427F8D2BCFACF5004B7562 /* AppDelegate.swift */; };
+		13427F902BCFACF5004B7562 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427F8F2BCFACF5004B7562 /* SceneDelegate.swift */; };
+		13427F952BCFACF5004B7562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13427F932BCFACF5004B7562 /* Main.storyboard */; };
+		13427F972BCFACF9004B7562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13427F962BCFACF9004B7562 /* Assets.xcassets */; };
+		13427F9A2BCFACF9004B7562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13427F982BCFACF9004B7562 /* LaunchScreen.storyboard */; };
+		13427FA52BCFACFA004B7562 /* GoqiiHealthtrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427FA42BCFACFA004B7562 /* GoqiiHealthtrackingTests.swift */; };
+		13427FAF2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427FAE2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.swift */; };
+		13427FB12BCFACFA004B7562 /* GoqiiHealthtrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427FB02BCFACFA004B7562 /* GoqiiHealthtrackingUITestsLaunchTests.swift */; };
+		13427FBE2BCFAF94004B7562 /* HydrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427FBD2BCFAF94004B7562 /* HydrationModel.swift */; };
+		13427FC02BCFB0C8004B7562 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427FBF2BCFB0C8004B7562 /* DateHelper.swift */; };
+		13427FC22BCFB2C1004B7562 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427FC12BCFB2C1004B7562 /* Constants.swift */; };
+		13427FC62BCFB36C004B7562 /* DrinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13427FC52BCFB36C004B7562 /* DrinkCell.swift */; };
+		13482A152BD02DE800BDABB3 /* WaterProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13482A142BD02DE800BDABB3 /* WaterProgressView.swift */; };
+		13482A262BD0ED0F00BDABB3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13482A252BD0ED0F00BDABB3 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13427FA12BCFACFA004B7562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13427F822BCFACF5004B7562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13427F892BCFACF5004B7562;
+			remoteInfo = GoqiiHealthtracking;
+		};
+		13427FAB2BCFACFA004B7562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13427F822BCFACF5004B7562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13427F892BCFACF5004B7562;
+			remoteInfo = GoqiiHealthtracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13427F8A2BCFACF5004B7562 /* GoqiiHealthtracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoqiiHealthtracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13427F8D2BCFACF5004B7562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13427F8F2BCFACF5004B7562 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13427F942BCFACF5004B7562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13427F962BCFACF9004B7562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13427F992BCFACF9004B7562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13427F9B2BCFACF9004B7562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13427FA02BCFACFA004B7562 /* GoqiiHealthtrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoqiiHealthtrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13427FA42BCFACFA004B7562 /* GoqiiHealthtrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoqiiHealthtrackingTests.swift; sourceTree = "<group>"; };
+		13427FAA2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoqiiHealthtrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13427FAE2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoqiiHealthtrackingUITests.swift; sourceTree = "<group>"; };
+		13427FB02BCFACFA004B7562 /* GoqiiHealthtrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoqiiHealthtrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13427FBD2BCFAF94004B7562 /* HydrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationModel.swift; sourceTree = "<group>"; };
+		13427FBF2BCFB0C8004B7562 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		13427FC12BCFB2C1004B7562 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		13427FC52BCFB36C004B7562 /* DrinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCell.swift; sourceTree = "<group>"; };
+		13482A142BD02DE800BDABB3 /* WaterProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterProgressView.swift; sourceTree = "<group>"; };
+		13482A252BD0ED0F00BDABB3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13427F872BCFACF5004B7562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13427F9D2BCFACFA004B7562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13427FA72BCFACFA004B7562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13427F812BCFACF5004B7562 = {
+			isa = PBXGroup;
+			children = (
+				13427F8C2BCFACF5004B7562 /* GoqiiHealthtracking */,
+				13427FA32BCFACFA004B7562 /* GoqiiHealthtrackingTests */,
+				13427FAD2BCFACFA004B7562 /* GoqiiHealthtrackingUITests */,
+				13427F8B2BCFACF5004B7562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13427F8B2BCFACF5004B7562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13427F8A2BCFACF5004B7562 /* GoqiiHealthtracking.app */,
+				13427FA02BCFACFA004B7562 /* GoqiiHealthtrackingTests.xctest */,
+				13427FAA2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13427F8C2BCFACF5004B7562 /* GoqiiHealthtracking */ = {
+			isa = PBXGroup;
+			children = (
+				13482A272BD0ED2200BDABB3 /* System */,
+				13482A242BD0ED0200BDABB3 /* Controller */,
+				13482A232BD0ECA800BDABB3 /* View */,
+				13482A222BD0EC6600BDABB3 /* cell */,
+				13482A212BD0EC3B00BDABB3 /* Model */,
+				13427F932BCFACF5004B7562 /* Main.storyboard */,
+				13427F962BCFACF9004B7562 /* Assets.xcassets */,
+				13427F9B2BCFACF9004B7562 /* Info.plist */,
+			);
+			path = GoqiiHealthtracking;
+			sourceTree = "<group>";
+		};
+		13427FA32BCFACFA004B7562 /* GoqiiHealthtrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				13427FA42BCFACFA004B7562 /* GoqiiHealthtrackingTests.swift */,
+			);
+			path = GoqiiHealthtrackingTests;
+			sourceTree = "<group>";
+		};
+		13427FAD2BCFACFA004B7562 /* GoqiiHealthtrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13427FAE2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.swift */,
+				13427FB02BCFACFA004B7562 /* GoqiiHealthtrackingUITestsLaunchTests.swift */,
+			);
+			path = GoqiiHealthtrackingUITests;
+			sourceTree = "<group>";
+		};
+		13482A212BD0EC3B00BDABB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13427FBF2BCFB0C8004B7562 /* DateHelper.swift */,
+				13427FC12BCFB2C1004B7562 /* Constants.swift */,
+				13427FBD2BCFAF94004B7562 /* HydrationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13482A222BD0EC6600BDABB3 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				13427FC52BCFB36C004B7562 /* DrinkCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		13482A232BD0ECA800BDABB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13482A142BD02DE800BDABB3 /* WaterProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13482A242BD0ED0200BDABB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13482A252BD0ED0F00BDABB3 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13482A272BD0ED2200BDABB3 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				13427F982BCFACF9004B7562 /* LaunchScreen.storyboard */,
+				13427F8D2BCFACF5004B7562 /* AppDelegate.swift */,
+				13427F8F2BCFACF5004B7562 /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13427F892BCFACF5004B7562 /* GoqiiHealthtracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13427FB42BCFACFA004B7562 /* Build configuration list for PBXNativeTarget "GoqiiHealthtracking" */;
+			buildPhases = (
+				13427F862BCFACF5004B7562 /* Sources */,
+				13427F872BCFACF5004B7562 /* Frameworks */,
+				13427F882BCFACF5004B7562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoqiiHealthtracking;
+			productName = GoqiiHealthtracking;
+			productReference = 13427F8A2BCFACF5004B7562 /* GoqiiHealthtracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13427F9F2BCFACFA004B7562 /* GoqiiHealthtrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13427FB72BCFACFA004B7562 /* Build configuration list for PBXNativeTarget "GoqiiHealthtrackingTests" */;
+			buildPhases = (
+				13427F9C2BCFACFA004B7562 /* Sources */,
+				13427F9D2BCFACFA004B7562 /* Frameworks */,
+				13427F9E2BCFACFA004B7562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13427FA22BCFACFA004B7562 /* PBXTargetDependency */,
+			);
+			name = GoqiiHealthtrackingTests;
+			productName = GoqiiHealthtrackingTests;
+			productReference = 13427FA02BCFACFA004B7562 /* GoqiiHealthtrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13427FA92BCFACFA004B7562 /* GoqiiHealthtrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13427FBA2BCFACFA004B7562 /* Build configuration list for PBXNativeTarget "GoqiiHealthtrackingUITests" */;
+			buildPhases = (
+				13427FA62BCFACFA004B7562 /* Sources */,
+				13427FA72BCFACFA004B7562 /* Frameworks */,
+				13427FA82BCFACFA004B7562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13427FAC2BCFACFA004B7562 /* PBXTargetDependency */,
+			);
+			name = GoqiiHealthtrackingUITests;
+			productName = GoqiiHealthtrackingUITests;
+			productReference = 13427FAA2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13427F822BCFACF5004B7562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13427F892BCFACF5004B7562 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					13427F9F2BCFACFA004B7562 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13427F892BCFACF5004B7562;
+					};
+					13427FA92BCFACFA004B7562 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13427F892BCFACF5004B7562;
+					};
+				};
+			};
+			buildConfigurationList = 13427F852BCFACF5004B7562 /* Build configuration list for PBXProject "GoqiiHealthtracking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13427F812BCFACF5004B7562;
+			productRefGroup = 13427F8B2BCFACF5004B7562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13427F892BCFACF5004B7562 /* GoqiiHealthtracking */,
+				13427F9F2BCFACFA004B7562 /* GoqiiHealthtrackingTests */,
+				13427FA92BCFACFA004B7562 /* GoqiiHealthtrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13427F882BCFACF5004B7562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13427F9A2BCFACF9004B7562 /* LaunchScreen.storyboard in Resources */,
+				13427F972BCFACF9004B7562 /* Assets.xcassets in Resources */,
+				13427F952BCFACF5004B7562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13427F9E2BCFACFA004B7562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13427FA82BCFACFA004B7562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13427F862BCFACF5004B7562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13427FC02BCFB0C8004B7562 /* DateHelper.swift in Sources */,
+				13427F8E2BCFACF5004B7562 /* AppDelegate.swift in Sources */,
+				13427FC62BCFB36C004B7562 /* DrinkCell.swift in Sources */,
+				13427FBE2BCFAF94004B7562 /* HydrationModel.swift in Sources */,
+				13482A262BD0ED0F00BDABB3 /* HomeViewController.swift in Sources */,
+				13482A152BD02DE800BDABB3 /* WaterProgressView.swift in Sources */,
+				13427F902BCFACF5004B7562 /* SceneDelegate.swift in Sources */,
+				13427FC22BCFB2C1004B7562 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13427F9C2BCFACFA004B7562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13427FA52BCFACFA004B7562 /* GoqiiHealthtrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13427FA62BCFACFA004B7562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13427FAF2BCFACFA004B7562 /* GoqiiHealthtrackingUITests.swift in Sources */,
+				13427FB12BCFACFA004B7562 /* GoqiiHealthtrackingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13427FA22BCFACFA004B7562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13427F892BCFACF5004B7562 /* GoqiiHealthtracking */;
+			targetProxy = 13427FA12BCFACFA004B7562 /* PBXContainerItemProxy */;
+		};
+		13427FAC2BCFACFA004B7562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13427F892BCFACF5004B7562 /* GoqiiHealthtracking */;
+			targetProxy = 13427FAB2BCFACFA004B7562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13427F932BCFACF5004B7562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13427F942BCFACF5004B7562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13427F982BCFACF9004B7562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13427F992BCFACF9004B7562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13427FB22BCFACFA004B7562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13427FB32BCFACFA004B7562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13427FB52BCFACFA004B7562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43GBAH2R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoqiiHealthtracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpeningApp.GoqiiHealthtracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13427FB62BCFACFA004B7562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43GBAH2R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoqiiHealthtracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpeningApp.GoqiiHealthtracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13427FB82BCFACFA004B7562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43GBAH2R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpeningApp.GoqiiHealthtrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoqiiHealthtracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoqiiHealthtracking";
+			};
+			name = Debug;
+		};
+		13427FB92BCFACFA004B7562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43GBAH2R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpeningApp.GoqiiHealthtrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoqiiHealthtracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoqiiHealthtracking";
+			};
+			name = Release;
+		};
+		13427FBB2BCFACFA004B7562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43GBAH2R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpeningApp.GoqiiHealthtrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoqiiHealthtracking;
+			};
+			name = Debug;
+		};
+		13427FBC2BCFACFA004B7562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43GBAH2R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpeningApp.GoqiiHealthtrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoqiiHealthtracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13427F852BCFACF5004B7562 /* Build configuration list for PBXProject "GoqiiHealthtracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13427FB22BCFACFA004B7562 /* Debug */,
+				13427FB32BCFACFA004B7562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13427FB42BCFACFA004B7562 /* Build configuration list for PBXNativeTarget "GoqiiHealthtracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13427FB52BCFACFA004B7562 /* Debug */,
+				13427FB62BCFACFA004B7562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13427FB72BCFACFA004B7562 /* Build configuration list for PBXNativeTarget "GoqiiHealthtrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13427FB82BCFACFA004B7562 /* Debug */,
+				13427FB92BCFACFA004B7562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13427FBA2BCFACFA004B7562 /* Build configuration list for PBXNativeTarget "GoqiiHealthtrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13427FBB2BCFACFA004B7562 /* Debug */,
+				13427FBC2BCFACFA004B7562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13427F822BCFACF5004B7562 /* Project object */;
+}
